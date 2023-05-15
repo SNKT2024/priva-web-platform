@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+    
+
+/* Navbar - Priva Logo */
+.privaimg{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+/* Login Container */
+
+
+.loginbtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 100px; 
+    
+}
+
+/* Goa Plant Login */
+
+
+.form-cont{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+  
+
+  
+  .img {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .login-header{
+    font-weight: 200;
+  }
+
+  a{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+  }
+
+  .form-label{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .frg-pass{
+    display: flex;
+    justify-content: end;
+  }
